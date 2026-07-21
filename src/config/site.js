@@ -1,0 +1,18 @@
+export const site = {
+  name: 'Cafetal OS',
+  version: '2.2.2',
+  tagline: 'Decisiones claras desde la finca hasta la taza',
+  description: 'Sistema open source, offline-first y multiplataforma para administrar fincas cafetaleras desde el lote hasta la taza.',
+  organization: 'NaT Technologies · Comunidad Cafetal OS',
+  repository: 'NaTTechnologies/CafetalOS',
+  github: 'https://github.com/NaTTechnologies/CafetalOS',
+  discussions: 'https://github.com/NaTTechnologies/CafetalOS/discussions',
+  issues: 'https://github.com/NaTTechnologies/CafetalOS/issues',
+  releases: 'https://github.com/NaTTechnologies/CafetalOS/releases',
+  security: 'https://github.com/NaTTechnologies/CafetalOS/security/policy',
+  pages: 'https://nattechnologies.github.io/',
+  email: 'comunidad@nattechnologiesagency.com',
+  license: 'MIT',
+  stack: ['Vue 3', 'Electron', 'SQL.js', 'Vitest', 'Playwright'],
+  platforms: ['Windows', 'macOS', 'Linux'],
+}

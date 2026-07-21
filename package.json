@@ -1,0 +1,39 @@
+{
+  "name": "nattechnologies-github-pages",
+  "version": "2.2.2",
+  "private": true,
+  "description": "Sitio oficial, documentación y centro de comunidad de Cafetal OS publicado en NaTTechnologies.github.io.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "npm run build && npm audit --audit-level=high"
+  },
+  "dependencies": {
+    "dompurify": "^3.2.6",
+    "marked": "^16.1.1",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "vite": "^8.1.5"
+  },
+  "author": "NaT Technologies y Comunidad Cafetal OS",
+  "homepage": "https://nattechnologies.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NaTTechnologies/nattechnologies.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NaTTechnologies/nattechnologies.github.io/issues"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
